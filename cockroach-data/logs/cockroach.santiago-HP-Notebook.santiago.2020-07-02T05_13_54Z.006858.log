@@ -1,0 +1,37 @@
+I200702 05:13:54.273957 1 util/log/sync_buffer.go:70  [config] file created at: 2020/07/02 05:13:54
+I200702 05:13:54.273957 1 util/log/sync_buffer.go:70  [config] running on machine: santiago-HP-Notebook
+I200702 05:13:54.273957 1 util/log/sync_buffer.go:70  [config] binary: CockroachDB CCL v20.1.2 (x86_64-unknown-linux-gnu, built 2020/06/09 16:11:36, go1.13.9)
+I200702 05:13:54.273957 1 util/log/sync_buffer.go:70  [config] arguments: [cockroach start --insecure]
+I200702 05:13:54.273957 1 util/log/sync_buffer.go:70  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+I200702 05:13:54.273955 1 cli/start.go:1223  logging to directory /home/santiago/go/src/github.com/Santiagozh1998/SpyServer/cockroach-data/logs
+W200702 05:13:54.292728 1 cli/start.go:1272  RUNNING IN INSECURE MODE!
+
+- Your cluster is open for any client that can access <all your IP addresses>.
+- Any user, even root, can log in without providing a password.
+- Any user, connecting as root, can read or write any data in your cluster.
+- There is no network encryption nor authentication, and thus no confidentiality.
+
+Check out how to secure your cluster: https://www.cockroachlabs.com/docs/v20.1/secure-a-cluster.html
+I200702 05:13:54.313628 1 server/status/recorder.go:597  available memory from cgroups is unsupported, using system memory 11 GiB instead: can't read available memory from cgroup v2 at /sys/fs/cgroup/unified/memory.max: open /sys/fs/cgroup/unified/memory.max: no such file or directory
+W200702 05:13:54.313755 1 cli/start.go:1144  Using the default setting for --cache (128 MiB).
+  A significantly larger value is usually needed for good performance.
+  If you have a dedicated server a reasonable setting is --cache=.25 (2.7 GiB).
+I200702 05:13:54.314397 1 server/status/recorder.go:597  available memory from cgroups is unsupported, using system memory 11 GiB instead: can't read available memory from cgroup v2 at /sys/fs/cgroup/unified/memory.max: open /sys/fs/cgroup/unified/memory.max: no such file or directory
+I200702 05:13:54.314425 1 cli/start.go:1286  CockroachDB CCL v20.1.2 (x86_64-unknown-linux-gnu, built 2020/06/09 16:11:36, go1.13.9)
+W200702 05:13:54.315247 1 cli/start.go:548  running 'cockroach start' without --join is deprecated.
+Consider using 'cockroach start-single-node' or 'cockroach init' instead.
+I200702 05:13:54.368999 1 server/status/recorder.go:597  available memory from cgroups is unsupported, using system memory 11 GiB instead: can't read available memory from cgroup v2 at /sys/fs/cgroup/unified/memory.max: open /sys/fs/cgroup/unified/memory.max: no such file or directory
+I200702 05:13:54.369083 1 server/config.go:404  system total memory: 11 GiB
+I200702 05:13:54.369204 1 server/config.go:406  server configuration:
+max offset             500000000
+cache size             128 MiB
+SQL memory pool size   2.7 GiB
+scan interval          10m0s
+scan min idle time     10ms
+scan max idle time     1s
+event log enabled      true
+I200702 05:13:54.369279 1 cli/start.go:1129  process identity: uid 1000 euid 1000 gid 1000 egid 1000
+I200702 05:13:54.414913 1 cli/start.go:697  starting cockroach node
+I200702 05:13:54.481775 39 storage/rocksdb.go:606  opening rocksdb instance at "/home/santiago/go/src/github.com/Santiagozh1998/SpyServer/cockroach-data/cockroach-temp104622928"
+I200702 05:13:55.204006 39 server/server.go:1065  [n?] monitoring forward clock jumps based on server.clock.forward_jump_check_enabled
+E200702 05:13:55.302508 1 cli/error.go:373  ERROR: cockroach server exited with error: consider changing the port via --http-addr: listen tcp :8080: bind: address already in use
