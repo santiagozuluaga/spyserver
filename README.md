@@ -1,12 +1,11 @@
 # SpyServer
 
-- CARPETA DEL FRONTEND = spyserver
-- EN EL ARCHIVO spyserver.sql SE ENCUENTRAN DEFINIDAS LAS TABLAS QUE SE USAN EN EL PROYECTO.
-- PARA CORRER EL FRONTEND ENTRAR A LA CARPETA spyserver Y EJECUTAR LOS COMANDOS: 
+- Carpeta del frontend = spyserver
+- En el archivo spyserver.sql se encuentran definidas las tablas que se usan en el proyecto.
+- Para correr el frontend entrar a la carpeta spyserver y ejecutar los comandos:
     - npm install
     - npm run serve
-- YA QUE EL FRONTENDO CORRE EN EL PUERTO 8080 IGUAL QUE COCKROACHDB POR DEFECTO HAY QUE CORRER LA BASE DE DATOS EN EL 8081.
-- PARA CORRER EL PROYECTO DE GO INSTALAR LAS DEPENDENCIAS PRIMERO:
+- Ya que el frontend corre en el puerto 8080 igual que cockroachdb por defecto, hay que correr la base de datos en el 8081.
     
 
 
