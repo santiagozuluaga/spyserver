@@ -2026,3 +2026,153 @@ gossip client (0/3 cur/max conns)
 gossip server (0/3 cur/max conns, infos 0/0 sent/received, bytes 0B/0B sent/received)
 I200903 20:00:29.201504 173 server/status/runtime.go:498  [n1] runtime stats: 204 MiB RSS, 192 goroutines, 58 MiB/60 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 24.2 CGO/sec, 1.1/0.4 %(u/s)time, 0.0 %gc (0x), 2.6 MiB/182 KiB (r/w)net
 I200903 20:00:39.201585 173 server/status/runtime.go:498  [n1] runtime stats: 205 MiB RSS, 191 goroutines, 65 MiB/54 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 33.3 CGO/sec, 1.2/0.6 %(u/s)time, 0.0 %gc (0x), 1.3 MiB/49 KiB (r/w)net
+I200903 20:00:49.200748 173 server/status/runtime.go:498  [n1] runtime stats: 205 MiB RSS, 191 goroutines, 71 MiB/48 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 24.4 CGO/sec, 1.3/0.3 %(u/s)time, 0.0 %gc (0x), 4.7 KiB/6.4 KiB (r/w)net
+I200903 20:00:59.201053 173 server/status/runtime.go:498  [n1] runtime stats: 205 MiB RSS, 191 goroutines, 78 MiB/42 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 44.9 CGO/sec, 1.4/0.3 %(u/s)time, 0.0 %gc (0x), 24 KiB/20 KiB (r/w)net
+I200903 20:01:09.202257 173 server/status/runtime.go:498  [n1] runtime stats: 205 MiB RSS, 192 goroutines, 86 MiB/36 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 59.8 CGO/sec, 1.5/0.5 %(u/s)time, 0.0 %gc (0x), 17 KiB/102 KiB (r/w)net
+I200903 20:01:19.201734 173 server/status/runtime.go:498  [n1] runtime stats: 206 MiB RSS, 192 goroutines, 92 MiB/29 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 26.3 CGO/sec, 1.3/0.2 %(u/s)time, 0.0 %gc (0x), 277 KiB/108 KiB (r/w)net
+I200903 20:01:28.872275 168 gossip/gossip.go:567  [n1] gossip status (ok, 1 node)
+gossip client (0/3 cur/max conns)
+gossip server (0/3 cur/max conns, infos 0/0 sent/received, bytes 0B/0B sent/received)
+I200903 20:01:29.201874 173 server/status/runtime.go:498  [n1] runtime stats: 206 MiB RSS, 192 goroutines, 51 MiB/66 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 26.0 CGO/sec, 1.4/0.2 %(u/s)time, 0.0 %gc (1x), 638 KiB/105 KiB (r/w)net
+I200903 20:01:39.202769 173 server/status/runtime.go:498  [n1] runtime stats: 206 MiB RSS, 191 goroutines, 58 MiB/60 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 34.7 CGO/sec, 1.3/0.4 %(u/s)time, 0.0 %gc (0x), 276 KiB/54 KiB (r/w)net
+I200903 20:01:49.203480 173 server/status/runtime.go:498  [n1] runtime stats: 206 MiB RSS, 191 goroutines, 64 MiB/54 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 27.6 CGO/sec, 1.5/0.3 %(u/s)time, 0.0 %gc (0x), 4.1 KiB/5.5 KiB (r/w)net
+I200903 20:01:59.203853 173 server/status/runtime.go:498  [n1] runtime stats: 207 MiB RSS, 191 goroutines, 71 MiB/49 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 26.0 CGO/sec, 1.5/0.4 %(u/s)time, 0.0 %gc (0x), 6.5 KiB/6.6 KiB (r/w)net
+I200903 20:02:09.203951 173 server/status/runtime.go:498  [n1] runtime stats: 207 MiB RSS, 192 goroutines, 78 MiB/42 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 57.7 CGO/sec, 1.9/0.3 %(u/s)time, 0.0 %gc (0x), 3.8 KiB/3.5 KiB (r/w)net
+I200903 20:02:19.204984 173 server/status/runtime.go:498  [n1] runtime stats: 207 MiB RSS, 192 goroutines, 85 MiB/36 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 25.9 CGO/sec, 1.3/0.6 %(u/s)time, 0.0 %gc (0x), 9.3 KiB/12 KiB (r/w)net
+I200903 20:02:28.872286 168 gossip/gossip.go:567  [n1] gossip status (ok, 1 node)
+gossip client (0/3 cur/max conns)
+gossip server (0/3 cur/max conns, infos 0/0 sent/received, bytes 0B/0B sent/received)
+I200903 20:02:29.204724 173 server/status/runtime.go:498  [n1] runtime stats: 208 MiB RSS, 192 goroutines, 91 MiB/30 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 28.0 CGO/sec, 1.3/0.6 %(u/s)time, 0.0 %gc (0x), 5.6 KiB/7.1 KiB (r/w)net
+I200903 20:02:39.204942 173 server/status/runtime.go:498  [n1] runtime stats: 208 MiB RSS, 191 goroutines, 51 MiB/66 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 31.5 CGO/sec, 1.7/0.6 %(u/s)time, 0.0 %gc (1x), 9.2 KiB/10 KiB (r/w)net
+I200903 20:02:49.204091 173 server/status/runtime.go:498  [n1] runtime stats: 208 MiB RSS, 191 goroutines, 58 MiB/60 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 29.6 CGO/sec, 1.6/0.2 %(u/s)time, 0.0 %gc (0x), 2.7 KiB/3.3 KiB (r/w)net
+I200903 20:02:59.204896 173 server/status/runtime.go:498  [n1] runtime stats: 208 MiB RSS, 191 goroutines, 64 MiB/54 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 25.1 CGO/sec, 1.2/0.3 %(u/s)time, 0.0 %gc (0x), 5.1 MiB/221 KiB (r/w)net
+I200903 20:03:09.205412 173 server/status/runtime.go:498  [n1] runtime stats: 208 MiB RSS, 192 goroutines, 72 MiB/48 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 59.4 CGO/sec, 1.6/0.4 %(u/s)time, 0.0 %gc (0x), 1.9 MiB/75 KiB (r/w)net
+I200903 20:03:19.205427 173 server/status/runtime.go:498  [n1] runtime stats: 208 MiB RSS, 192 goroutines, 78 MiB/42 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 27.8 CGO/sec, 1.3/0.2 %(u/s)time, 0.0 %gc (0x), 4.0 MiB/172 KiB (r/w)net
+I200903 20:03:28.872500 168 gossip/gossip.go:567  [n1] gossip status (ok, 1 node)
+gossip client (0/3 cur/max conns)
+gossip server (0/3 cur/max conns, infos 0/0 sent/received, bytes 0B/0B sent/received)
+I200903 20:03:29.206005 173 server/status/runtime.go:498  [n1] runtime stats: 208 MiB RSS, 192 goroutines, 85 MiB/36 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 42.4 CGO/sec, 1.4/0.5 %(u/s)time, 0.0 %gc (0x), 3.5 MiB/96 KiB (r/w)net
+E200903 20:03:30.565526 381 kv/kvserver/queue.go:1204  [n1,replicate] 50 replicas failing with "0 of 1 live stores are able to take a new replica for the range (1 already has a replica); likely not enough nodes in cluster"
+I200903 20:03:39.206591 173 server/status/runtime.go:498  [n1] runtime stats: 209 MiB RSS, 191 goroutines, 92 MiB/30 MiB/112 MiB GO alloc/idle/total, 48 MiB/60 MiB CGO alloc/total, 37.1 CGO/sec, 1.5/0.4 %(u/s)time, 0.0 %gc (0x), 1.9 MiB/60 KiB (r/w)net
+I200903 20:03:48.052937 1 cli/start.go:919  received signal 'interrupt'
+I200903 20:03:48.093811 1 cli/start.go:1006  initiating graceful shutdown of server
+I200903 20:03:48.874976 167 kv/kvserver/store.go:2474  [n1,s1] sstables (read amplification = 2):
+0 [ 353K 1 ]: 353K
+6 [   6M 2 ]: 4M 2M
+I200903 20:03:48.913917 167 kv/kvserver/store.go:2475  [n1,s1] 
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0   353.05 KB   0.5      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.2      7.86              5.71         4    1.964       0      0
+  L6      2/0    5.75 MB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   7.2      8.4      8.0      1.37              0.63         2    0.687     75K    25K
+ Sum      3/0    6.10 MB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   8.4      1.3      1.4      9.23              6.34         6    1.538     75K    25K
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      8.4      8.0      1.37              0.63         2    0.687     75K    25K
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.2      5.95              5.71         3    1.983       0      0
+User      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.2      1.91              0.00         1    1.907       0      0
+Uptime(secs): 9623.9 total, 600.0 interval
+Flush(GB): cumulative 0.001, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.01 GB write, 0.00 MB/s write, 0.01 GB read, 0.00 MB/s read, 9.2 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+estimated_pending_compaction_bytes: 0 B
+I200903 20:03:49.195031 104737 server/drain.go:173  [server drain process] drain remaining: 4
+I200903 20:03:49.245647 104737 server/drain.go:175  [server drain process] drain details: SQL clients: 1, table leases: 2, liveness record: 1
+I200903 20:03:49.205954 173 server/status/runtime.go:498  [n1] runtime stats: 209 MiB RSS, 191 goroutines, 51 MiB/66 MiB/112 MiB GO alloc/idle/total, 56 MiB/68 MiB CGO alloc/total, 31.0 CGO/sec, 1.9/0.4 %(u/s)time, 0.0 %gc (1x), 2.4 MiB/60 KiB (r/w)net
+I200903 20:03:49.505094 104737 server/drain.go:173  [server drain process] drain remaining: 0
+I200903 20:03:49.556517 104737 util/stop/stopper.go:539  [server drain process] quiescing
+W200903 20:03:49.601238 109 server/node.go:801  [n1,summaries] error recording status summaries: failed to send RPC: sending to all 1 replicas failed; last error: (err: node unavailable; try another peer) <nil>
+W200903 20:03:49.843336 148 kv/kvserver/store.go:1631  [n1,s1,r1/1:/{Min-System/NodeL…}] could not gossip first range descriptor: node unavailable; try another peer
+I200903 20:03:49.901916 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (gc): node unavailable; try another peer
+W200903 20:03:49.925446 148 kv/kvserver/store.go:1631  [n1,s1,r1/1:/{Min-System/NodeL…}] could not gossip first range descriptor: node unavailable; try another peer
+I200903 20:03:49.934685 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (merge): node unavailable; try another peer
+I200903 20:03:50.001150 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (split): node unavailable; try another peer
+W200903 20:03:49.990237 212 jobs/registry.go:1224  job 586600386900328449: canceling due to liveness failure
+I200903 20:03:50.035242 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (replicate): node unavailable; try another peer
+W200903 20:03:50.056454 148 kv/kvserver/store.go:1631  [n1,s1,r1/1:/{Min-System/NodeL…}] could not gossip first range descriptor: node unavailable; try another peer
+W200903 20:03:50.068552 212 jobs/registry.go:1224  job 586600670814732289: canceling due to liveness failure
+E200903 20:03:50.068649 1004 jobs/registry.go:955  [n1] job 586600386900328449: adoption completed with error job 586600386900328449: node liveness error: restarting in background
+I200903 20:03:50.101898 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (replicaGC): node unavailable; try another peer
+W200903 20:03:50.190787 212 jobs/registry.go:1224  job 586691971583148033: canceling due to liveness failure
+E200903 20:03:50.190862 1047 jobs/registry.go:955  [n1] job 586600670814732289: adoption completed with error job 586600670814732289: node liveness error: restarting in background
+W200903 20:03:50.235278 1004 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+I200903 20:03:50.279619 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (raftlog): node unavailable; try another peer
+I200903 20:03:50.457152 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (raftsnapshot): node unavailable; try another peer
+W200903 20:03:50.323891 212 jobs/registry.go:1224  job 586692954800685057: canceling due to liveness failure
+E200903 20:03:50.324031 1505 jobs/registry.go:955  [n1] job 586691971583148033: adoption completed with error job 586691971583148033: node liveness error: restarting in background
+W200903 20:03:50.338695 148 kv/kvserver/store.go:1631  [n1,s1,r1/1:/{Min-System/NodeL…}] could not gossip first range descriptor: node unavailable; try another peer
+W200903 20:03:50.355728 174 ts/db.go:197  [n1,ts-poll] node unavailable; try another peer
+W200903 20:03:50.368353 1047 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:50.412807 1004 jobs/registry.go:959  [n1] job 586600386900328449: failed querying status: context canceled
+I200903 20:03:50.501600 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (consistencyChecker): node unavailable; try another peer
+W200903 20:03:50.545918 212 jobs/registry.go:1224  job 586692953604390913: canceling due to liveness failure
+E200903 20:03:50.546043 1522 jobs/registry.go:955  [n1] job 586692954800685057: adoption completed with error job 586692954800685057: node liveness error: restarting in background
+W200903 20:03:50.590549 1505 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:50.723863 1047 jobs/registry.go:959  [n1] job 586600670814732289: failed querying status: context canceled
+I200903 20:03:50.812633 166 kv/kvserver/queue.go:578  [n1,s1] rate limited in MaybeAdd (timeSeriesMaintenance): node unavailable; try another peer
+W200903 20:03:50.856839 212 jobs/registry.go:1224  job 586693529736413185: canceling due to liveness failure
+E200903 20:03:50.856962 1574 jobs/registry.go:955  [n1] job 586692953604390913: adoption completed with error job 586692953604390913: node liveness error: restarting in background
+W200903 20:03:50.901291 1522 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:50.945621 1505 jobs/registry.go:959  [n1] job 586691971583148033: failed querying status: context canceled
+W200903 20:03:51.081084 148 kv/kvserver/store.go:1631  [n1,s1,r1/1:/{Min-System/NodeL…}] could not gossip first range descriptor: node unavailable; try another peer
+W200903 20:03:51.260646 212 jobs/registry.go:1224  job 586691970420637697: canceling due to liveness failure
+E200903 20:03:51.260767 1590 jobs/registry.go:955  [n1] job 586693529736413185: adoption completed with error job 586693529736413185: node liveness error: restarting in background
+W200903 20:03:51.380124 1574 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:51.424224 1522 jobs/registry.go:959  [n1] job 586692954800685057: failed querying status: context canceled
+W200903 20:03:51.557659 212 jobs/registry.go:1224  job 586693530861600769: canceling due to liveness failure
+E200903 20:03:51.557798 1067 jobs/registry.go:955  [n1] job 586691970420637697: adoption completed with error job 586691970420637697: node liveness error: restarting in background
+W200903 20:03:51.602213 1590 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:51.646572 1574 jobs/registry.go:959  [n1] job 586692953604390913: failed querying status: context canceled
+W200903 20:03:51.735332 212 jobs/registry.go:1224  job 586600675260989441: canceling due to liveness failure
+E200903 20:03:51.735415 1547 jobs/registry.go:955  [n1] job 586693530861600769: adoption completed with error job 586693530861600769: node liveness error: restarting in background
+W200903 20:03:51.779841 1067 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:51.824084 1590 jobs/registry.go:959  [n1] job 586693529736413185: failed querying status: context canceled
+W200903 20:03:51.913103 212 jobs/registry.go:1224  job 586690817085276161: canceling due to liveness failure
+E200903 20:03:51.913179 993 jobs/registry.go:955  [n1] job 586600675260989441: adoption completed with error job 586600675260989441: node liveness error: restarting in background
+W200903 20:03:51.957612 1547 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:52.001741 1067 jobs/registry.go:959  [n1] job 586691970420637697: failed querying status: context canceled
+W200903 20:03:52.090742 212 jobs/registry.go:1224  job 586691156818198529: canceling due to liveness failure
+E200903 20:03:52.090908 1013 jobs/registry.go:955  [n1] job 586690817085276161: adoption completed with error job 586690817085276161: node liveness error: restarting in background
+W200903 20:03:52.135203 993 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:52.179368 1547 jobs/registry.go:959  [n1] job 586693530861600769: failed querying status: context canceled
+W200903 20:03:52.207253 148 kv/kvserver/store.go:1631  [n1,s1,r1/1:/{Min-System/NodeL…}] could not gossip first range descriptor: node unavailable; try another peer
+W200903 20:03:52.268378 212 jobs/registry.go:1224  job 586690813188931585: canceling due to liveness failure
+E200903 20:03:52.268511 1022 jobs/registry.go:955  [n1] job 586691156818198529: adoption completed with error job 586691156818198529: node liveness error: restarting in background
+W200903 20:03:52.312759 1013 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:52.357157 993 jobs/registry.go:959  [n1] job 586600675260989441: failed querying status: context canceled
+W200903 20:03:52.490382 212 jobs/registry.go:1224  job 586691397920555009: canceling due to liveness failure
+E200903 20:03:52.490460 945 jobs/registry.go:955  [n1] job 586690813188931585: adoption completed with error job 586690813188931585: node liveness error: restarting in background
+W200903 20:03:52.534859 1022 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:52.579180 1013 jobs/registry.go:959  [n1] job 586690817085276161: failed querying status: context canceled
+W200903 20:03:52.668079 212 jobs/registry.go:1224  job 586691399009271809: canceling due to liveness failure
+E200903 20:03:52.668201 1076 jobs/registry.go:955  [n1] job 586691397920555009: adoption completed with error job 586691397920555009: node liveness error: restarting in background
+W200903 20:03:52.712543 945 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:52.756959 1022 jobs/registry.go:959  [n1] job 586691156818198529: failed querying status: context canceled
+W200903 20:03:52.834622 212 jobs/registry.go:1224  job 586600376608817153: canceling due to liveness failure
+E200903 20:03:52.834764 1512 jobs/registry.go:955  [n1] job 586691399009271809: adoption completed with error job 586691399009271809: node liveness error: restarting in background
+W200903 20:03:52.879239 1076 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:52.912567 945 jobs/registry.go:959  [n1] job 586690813188931585: failed querying status: context canceled
+W200903 20:03:52.979272 212 jobs/registry.go:1224  job 586691157835874305: canceling due to liveness failure
+E200903 20:03:52.979406 935 jobs/registry.go:955  [n1] job 586600376608817153: adoption completed with error job 586600376608817153: node liveness error: restarting in background
+W200903 20:03:53.012594 1512 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:53.045761 1076 jobs/registry.go:959  [n1] job 586691397920555009: failed querying status: context canceled
+E200903 20:03:53.112682 1032 jobs/registry.go:955  [n1] job 586691157835874305: adoption completed with error job 586691157835874305: node liveness error: restarting in background
+I200903 20:03:53.138354 104680 cli/start.go:1016  4 running tasks
+W200903 20:03:53.145806 935 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:53.179345 1512 jobs/registry.go:959  [n1] job 586691399009271809: failed querying status: context canceled
+W200903 20:03:53.245846 1032 kv/txn.go:607  [n1] failure aborting transaction: node unavailable; try another peer; abort caused by: context canceled
+E200903 20:03:53.334825 935 jobs/registry.go:959  [n1] job 586600376608817153: failed querying status: context canceled
+E200903 20:03:53.423558 1032 jobs/registry.go:959  [n1] job 586691157835874305: failed querying status: context canceled
+W200903 20:03:53.480056 148 kv/kvserver/store.go:1631  [n1,s1,r1/1:/{Min-System/NodeL…}] could not gossip first range descriptor: node unavailable; try another peer
+I200903 20:03:53.556939 104737 storage/rocksdb.go:746  closing rocksdb instance at "/home/santiago/go/src/github.com/Santiagozh1998/SpyServer/cockroach-data/cockroach-temp266264522"
+I200903 20:03:53.769486 104737 storage/rocksdb.go:746  closing rocksdb instance at "/home/santiago/go/src/github.com/Santiagozh1998/SpyServer/cockroach-data"
+I200903 20:03:54.058344 1 cli/start.go:1048  server drained and shutdown completed
+E200903 20:03:54.102044 1 cli/error.go:373  ERROR: interrupted

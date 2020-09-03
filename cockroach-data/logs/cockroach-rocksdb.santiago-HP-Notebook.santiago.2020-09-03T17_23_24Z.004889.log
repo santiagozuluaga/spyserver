@@ -482,3 +482,9 @@ I200903 19:35:12.296271 17 storage/rocksdb.go:102  (Original Log Time 2020/09/03
 I200903 19:35:12.296310 17 storage/rocksdb.go:102  (Original Log Time 2020/09/03-14:35:12.295747) [db/memtable_list.cc:437] [default] Level-0 commit table #135: memtable #1 done
 I200903 19:35:12.296355 17 storage/rocksdb.go:102  (Original Log Time 2020/09/03-14:35:12.295849) EVENT_LOG_v1 {"time_micros": 1599161712295805, "job": 7, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 0, 0, 0, 0, 0, 2], "immutable_memtables": 0}
 I200903 19:35:12.296395 17 storage/rocksdb.go:102  (Original Log Time 2020/09/03-14:35:12.295906) [db/db_impl_compaction_flush.cc:208] [default] Level summary: base level 6 level multiplier 10.00 max bytes base 67108864 files[1 0 0 0 0 0 2] max score 0.50
+I200903 20:03:53.601455 104737 storage/rocksdb.go:102  bloom filter utility:    -nan%
+I200903 20:03:53.656644 104737 storage/rocksdb.go:102  [db/db_impl.cc:392] Shutdown: canceling all background work
+I200903 20:03:53.712730 104737 storage/rocksdb.go:102  [db/db_impl.cc:565] Shutdown complete
+I200903 20:03:53.812969 104737 storage/rocksdb.go:102  bloom filter utility:    68.3%
+I200903 20:03:53.868387 104737 storage/rocksdb.go:102  [db/db_impl.cc:392] Shutdown: canceling all background work
+I200903 20:03:53.969951 104737 storage/rocksdb.go:102  [db/db_impl.cc:565] Shutdown complete
