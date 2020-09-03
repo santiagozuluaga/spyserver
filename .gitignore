@@ -1,6 +1,6 @@
 .DS_Store
 ./node_modules
-cockroach-data/
+./cockroach-data
 ./dist
 
 # local env files
