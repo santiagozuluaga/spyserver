@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Santiagozh1998/SpyServer/routes"
+	"github.com/Santiagozh1998/SpyServer/src/routes"
 	"github.com/valyala/fasthttp"
 )
 
@@ -18,5 +18,5 @@ func main() {
 	router := routes.AppRouter().Handler
 
 	log.Println("Server running in port: " + port)
-	fasthttp.ListenAndServe(":"+port, routes.CORS(router))
+	fasthttp.ListenAndServe(":"+port, router)
 }
